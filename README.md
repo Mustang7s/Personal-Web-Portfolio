@@ -4,7 +4,7 @@ Here’s the translation of your text to English:
 
 # Portfolio V5  
 Hello everyone!  
-Let me introduce myself, I’m Eki Zulfar Rachman. On this occasion, I’d like to share the portfolio website project that I’ve developed.  
+Let me introduce myself, I’m Kemboi Rutto Evance. On this occasion, I’d like to share the portfolio website project that I’ve developed.  
 
 **Tech Stack used:**  
 - ReactJS  
@@ -39,7 +39,7 @@ Ensure that you have already installed:
 1. **Download this project:**  
 
    ```bash  
-   git clone https://github.com/EkiZR/Portofolio_V5.git  
+   git clone https://www.github.com/Mustang7s/Portofolio_V5.git  
    ```  
 
 2. **Install all dependencies:**  

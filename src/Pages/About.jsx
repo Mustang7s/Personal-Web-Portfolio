@@ -21,7 +21,7 @@ const Header = memo(() => (
       data-aos-duration="800"
     >
       <Sparkles className="w-5 h-5 text-purple-400" />
-      Transforming ideas into digital experiences
+      Transforming visions into seamless, user-focused digital experiences with a commitment to innovation and sustainability
       <Sparkles className="w-5 h-5 text-purple-400" />
     </p>
   </div>
@@ -205,7 +205,7 @@ const AboutPage = () => {
                 data-aos="fade-right"
                 data-aos-duration="1300"
               >
-                Eki Zulfar Rachman
+                Kemboi Rutto Evance
               </span>
             </h2>
             
