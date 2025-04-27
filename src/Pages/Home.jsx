@@ -12,7 +12,7 @@ const StatusBadge = memo(() => (
       <div className="relative px-3 sm:px-4 py-2 rounded-full bg-black/40 backdrop-blur-xl border border-white/10">
         <span className="bg-gradient-to-r from-[#6366f1] to-[#a855f7] text-transparent bg-clip-text sm:text-sm text-[0.7rem] font-medium flex items-center">
           <Sparkles className="sm:w-4 sm:h-4 w-3 h-3 mr-2 text-blue-400" />
-          Ready to Craft Smart, Sustainable, and Creative Digital Solutions
+          Ready to Innovate
         </span>
       </div>
     </div>
@@ -77,12 +77,12 @@ const SocialLink = memo(({ icon: Icon, link }) => (
 const TYPING_SPEED = 100;
 const ERASING_SPEED = 50;
 const PAUSE_DURATION = 2000;
-const WORDS = ["Software Developer & Data Analyst", "Tech Solutions Enthusiast","Sustainability-Driven Innovator"];
+const WORDS = ["Network & Telecom Student", "Tech Enthusiast"];
 const TECH_STACK = ["React", "Javascript", "Node.js", "Tailwind"];
 const SOCIAL_LINKS = [
-  { icon: Github, link: "https://www.github.com/Mustang7s" },
-  { icon: Linkedin, link: "https://www.linkedin.com/in/rutto-evans-4b28b9218" },
-  { icon: Instagram, link: "https://www.instagram.com/r.u.tt.o/?hl=id" }
+  { icon: Github, link: "https://github.com/EkiZR" },
+  { icon: Linkedin, link: "https://www.linkedin.com/in/ekizr/" },
+  { icon: Instagram, link: "https://www.instagram.com/ekizr_/?hl=id" }
 ];
 
 const Home = () => {
@@ -183,7 +183,7 @@ const Home = () => {
                 <p className="text-base md:text-lg text-gray-400 max-w-xl leading-relaxed font-light"
                   data-aos="fade-up"
                   data-aos-delay="1000">
-                  Designing future-ready, eco-conscious web solutions that blend innovation, usability, and sustainability
+                  Menciptakan Website Yang Inovatif, Fungsional, dan User-Friendly untuk Solusi Digital.
                 </p>
 
                 {/* Tech Stack */}
