@@ -1,21 +1,21 @@
+// Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
-import { getFirestore } from "firebase/firestore"
-import { collection, addDoc, getDocs } from "@firebase/firestore"; // Perbarui ini
-
+import { getAnalytics } from "firebase/analytics";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
 
 // Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyB-lfUt1adpQ0KYcFFW_oAWTJVfHDOOZy8",
-  authDomain: "portofolio-web-3e8e8.firebaseapp.com",
-  databaseURL: "https://portofolio-web-3e8e8-default-rtdb.firebaseio.com",
-  projectId: "portofolio-web-3e8e8",
-  storageBucket: "portofolio-web-3e8e8.firebasestorage.app",
-  messagingSenderId: "25195509306",
-  appId: "1:25195509306:web:2b635dcf997137bf612703"
- };
+  apiKey: "AIzaSyCS1407epe5nOlM27CmDA2rx-nONEqfL3M",
+  authDomain: "evans-personal-portfolio-87bdc.firebaseapp.com",
+  projectId: "evans-personal-portfolio-87bdc",
+  storageBucket: "evans-personal-portfolio-87bdc.firebasestorage.app",
+  messagingSenderId: "505508860388",
+  appId: "1:505508860388:web:d75f44b695035ba0fff7f1",
+  measurementId: "G-S51GC899SZ"
+};
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
-const db = getFirestore(app);
-
-export { db, collection, addDoc };
+const analytics = getAnalytics(app);

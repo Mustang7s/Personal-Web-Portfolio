@@ -13,7 +13,7 @@ const socialLinks = [
     displayName: "Let's Connect",
     subText: "on LinkedIn",
     icon: Linkedin,
-    url: "https://www.linkedin.com/in/ekizr/",
+    url: "https://www.linkedin.com/in/rutto-evans-4b28b9218",
     color: "#0A66C2",
     gradient: "from-[#0A66C2] to-[#0077B5]",
     isPrimary: true
@@ -41,7 +41,7 @@ const socialLinks = [
     displayName: "Github",
     subText: "@EkiZR",
     icon: Github,
-    url: "https://github.com/EkiZR",
+    url: "https://www.github.com/Mustang7s",
     color: "#ffffff",
     gradient: "from-[#333] to-[#24292e]"
   },

@@ -110,7 +110,7 @@ const techStacks = [
   { icon: "nodejs.svg", language: "Node JS" },
   { icon: "bootstrap.svg", language: "Bootstrap" },
   { icon: "firebase.svg", language: "Firebase" },
-  { icon: "MUI.svg", language: "Material UI" },
+  { icon: "docker.svg", language: "Docker" },
   { icon: "vercel.svg", language: "Vercel" },
   { icon: "SweetAlert.svg", language: "SweetAlert2" },
 ];
@@ -177,8 +177,8 @@ export default function FullWidthTabs() {
     }
   }, []);
 
-  const displayedProjects = showAllProjects ? projects : projects.slice(0, initialItems);
-  const displayedCertificates = showAllCertificates ? certificates : certificates.slice(0, initialItems);
+  const displayedProjects = showAllProjects ? projects : projects.slice(4, initialItems);
+  const displayedCertificates = showAllCertificates ? certificates : certificates.slice(3, initialItems);
 
   return (
     <div className="md:px-[10%] px-[5%] w-full sm:mt-0 mt-[3rem] bg-[#030014] overflow-hidden" id="Portofolio">
@@ -196,8 +196,8 @@ export default function FullWidthTabs() {
           </span>
         </h2>
         <p className="text-slate-400 max-w-2xl mx-auto text-sm md:text-base mt-2">
-          Explore my journey through projects, certifications, and technical expertise. 
-          Each section represents a milestone in my continuous learning path.
+        Explore my journey of innovation, sustainability, and purposeful tech
+        Each milestone reflects my growth and purpose in my continuous learning path.
         </p>
       </div>
 
